@@ -17,9 +17,13 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-//1st branch
+<<<<<<< .merge_file_845RIt
      // second branch
   
+=======
+//1st branch
+
+>>>>>>> .merge_file_0XjPIi
 
 }
 
