@@ -35,12 +35,24 @@
                                     <constraint firstAttribute="height" constant="128" id="qD3-m8-MVL"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVY-yd-Ert">
+                                <rect key="frame" x="237" y="42" width="110" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="22S-r7-XPe"/>
+                                    <constraint firstAttribute="height" constant="62" id="dJW-1Z-2o7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="FLj-cR-lh0"/>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GTh-tS-6Gn"/>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HVG-xb-1je"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rVY-yd-Ert" secondAttribute="trailing" constant="12" id="NhU-js-po3"/>
+                            <constraint firstItem="rVY-yd-Ert" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="asm-gs-GzT"/>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="olL-7m-tqB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LxW-kR-uwS" secondAttribute="bottom" constant="26" id="pCc-UP-2Oj"/>
                             <constraint firstItem="LxW-kR-uwS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="tlv-ny-iDU"/>
