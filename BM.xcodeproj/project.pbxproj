@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22087E01F5B0E5A001D95FA /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B22087DE1F5B0E5A001D95FA /* DataModel.xcdatamodeld */; };
 		B262B7B01F5AE68400787178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262B7AF1F5AE68400787178 /* AppDelegate.swift */; };
 		B262B7B21F5AE68400787178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262B7B11F5AE68400787178 /* ViewController.swift */; };
 		B262B7B51F5AE68400787178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B262B7B31F5AE68400787178 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B22087DF1F5B0E5A001D95FA /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		B262B7AC1F5AE68400787178 /* BM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B262B7AF1F5AE68400787178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B262B7B11F5AE68400787178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				B262B7B61F5AE68400787178 /* Assets.xcassets */,
 				B262B7B81F5AE68400787178 /* LaunchScreen.storyboard */,
 				B262B7BB1F5AE68400787178 /* Info.plist */,
+				B22087DE1F5B0E5A001D95FA /* DataModel.xcdatamodeld */,
 			);
 			path = BM;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22087E01F5B0E5A001D95FA /* DataModel.xcdatamodeld in Sources */,
 				B262B7B21F5AE68400787178 /* ViewController.swift in Sources */,
 				B262B7B01F5AE68400787178 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +520,7 @@
 				B262B7D61F5AE68400787178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B262B7D71F5AE68400787178 /* Build configuration list for PBXNativeTarget "BMTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				B262B7D91F5AE68400787178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B262B7DA1F5AE68400787178 /* Build configuration list for PBXNativeTarget "BMUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,8 +538,22 @@
 				B262B7DC1F5AE68400787178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B22087DE1F5B0E5A001D95FA /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B22087DF1F5B0E5A001D95FA /* DataModel.xcdatamodel */,
+			);
+			currentVersion = B22087DF1F5B0E5A001D95FA /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B262B7A41F5AE68400787178 /* Project object */;
 }
