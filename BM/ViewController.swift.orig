@@ -18,8 +18,13 @@ class ViewController: UIViewController
     }
 
 //1st branch
+<<<<<<< HEAD
+     // second branch
+  
+=======
 
     ///i just added some code over here
+>>>>>>> 83b9a1eb200a25bf5a11570845211be0c03b6433
 
 }
 
