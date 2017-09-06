@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,18 +27,32 @@
                                 <rect key="frame" x="168.5" y="317" width="37.5" height="33"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZJ-zv-PPZ">
+                                <rect key="frame" x="16" y="20" width="343" height="63"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="ODn-yS-HMA"/>
+                                    <constraint firstAttribute="height" constant="63" id="R9w-yy-Fnm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="FLj-cR-lh0"/>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GTh-tS-6Gn"/>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HVG-xb-1je"/>
+                            <constraint firstItem="lZJ-zv-PPZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Sdi-yg-bKh"/>
+                            <constraint firstItem="lZJ-zv-PPZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ijM-yR-2uw"/>
                             <constraint firstItem="5BC-hz-tiv" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="olL-7m-tqB"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
 </document>
